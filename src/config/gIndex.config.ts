@@ -109,7 +109,7 @@ const config: z.input<typeof Schema_Config> = {
      *
      * Default: true
      */
-    proxyThumbnail: true,
+    proxyThumbnail: false,
 
     /**
      * Only show preview for files that are smaller than this size
@@ -176,7 +176,7 @@ const config: z.input<typeof Schema_Config> = {
     siteNameTemplate: "%s - %t",
     siteDescription: "A simple file browser for Google Drive",
     siteIcon: "/logo.svg",
-    siteAuthor: "akthummar",
+    siteAuthor: "anonymous",
     favIcon: "/favicon.png",
     /**
      * Next.js Metadata robots object
@@ -285,7 +285,7 @@ const config: z.input<typeof Schema_Config> = {
     "value": "{{ poweredBy }}"
   },
   {
-    "value": "Made with ❤️ by [**{{ author }}**](https://github.com/akshaythummar)"
+    "value": "Made with ❤️ by [**{{ author }}**](enjoy)"
   }
 ],
     /**
